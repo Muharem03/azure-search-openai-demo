@@ -5,9 +5,14 @@
 }
 
 .header {
-    background-color: #222222;
+    background-color: #002147;
     color: #f2f2f2;
 }
+.logo {
+    height: 40px;
+    margin-right: 12px;
+}
+
 
 .headerContainer {
     display: flex;
@@ -16,6 +21,8 @@
     padding-left: 1rem;
     padding-right: 1rem;
     position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .headerTitleContainer {
@@ -31,8 +38,13 @@
 }
 
 .headerTitle {
+    .headerTitle {
     margin-left: 0.5rem;
     font-weight: 600;
+    font-size: 1.5rem;
+    font-family: "Segoe UI", sans-serif;
+}
+
 }
 
 .headerNavList {
@@ -55,9 +67,9 @@
 
 .headerNavPageLink {
     padding: 1rem;
-    border-bottom: 1px solid #333;
+    border-bottom: 1px solid #04016eca;
     text-align: right;
-    color: #f2f2f2;
+    color: #bcb7b7ef;
     text-decoration: none;
     opacity: 0.75;
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);

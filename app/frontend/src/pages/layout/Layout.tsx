@@ -36,11 +36,13 @@ const Layout = () => {
 
     return (
         <div className={styles.layout}>
+            
             <header className={styles.header} role={"banner"}>
                 <div className={styles.headerContainer} ref={menuRef}>
                     <Link to="/" className={styles.headerTitleContainer}>
-                        <h3 className={styles.headerTitle}>{t("headerTitle")}</h3>
-                    </Link>
+    <img src="app/frontend/public/logo.png" alt="University Logo" className={styles.logo} />
+    <h3 className={styles.headerTitle}>{t("headerTitle")}</h3>
+</Link>
                     <nav>
                         <ul className={`${styles.headerNavList} ${menuOpen ? styles.show : ""}`}>
                             <li>
